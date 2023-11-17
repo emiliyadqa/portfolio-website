@@ -1,0 +1,93 @@
+html{
+    height: 100%;
+}
+
+body {
+    background-color: #1D2340;
+    color: aquamarine;
+    flex-direction: columns;
+}
+main{
+    display: flex;
+    padding: 10% 15%;
+    flex-direction: column;
+}
+#header {
+    display: flex;
+    justify-content: center;
+}
+
+#nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.logo > a {
+    color: aquamarine;
+    text-decoration: none;
+    border: 2px solid aquamarine ;
+    border-radius: 25% 10%;
+    padding: 12px;
+    margin-left: 10px;
+}
+
+#resume-btn {
+    color: aquamarine;
+    border: 2px solid aquamarine ;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.nav-item {
+    margin-right: 30px;
+    color:  rgb(214, 208, 208);
+    font-size: 16px;
+    letter-spacing: 1px;
+    
+}
+
+a {
+    color:  rgb(214, 208, 208);
+    text-decoration: none;
+}
+h1 {
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+p {
+    color: rgb(214, 208, 208);
+    font-size: 25px;
+    margin-bottom: 100px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.project-btn {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: aquamarine;
+    text-decoration: none;
+    border: 2px solid rgb(127, 255, 212) ;
+    padding: 15px;
+    border-radius: 5px;   
+    letter-spacing: 0.5px;
+}
+
+.project-btn:hover {
+    background-color: rgb(127, 255, 212, 20%);
+}
+
+#resume-btn:hover {
+    background-color: rgb(127, 255, 212, 20%) ;
+}
+
+
+
